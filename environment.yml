@@ -1,0 +1,24 @@
+name: TravelForg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fastapi
+  - uvicorn
+  - dvc
+  - scikit-learn
+  - pandas
+  - numpy      
+  - pip
+  - pip:
+      - mlflow
+      - sentence-transformers
+      - torch
+      - transformers
+      - networkx
+      - matplotlib
+      - seaborn
+      - pytest
+      - python-dotenv
+      - pydantic
